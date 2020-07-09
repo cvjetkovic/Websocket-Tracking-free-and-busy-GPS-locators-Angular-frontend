@@ -1,0 +1,40 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    max-width: 1200px;
+    margin-top: 50px;
+}
+.card {
+    width: 300px;
+    max-width: 300px;
+    margin: 12px;
+    padding: 1.5rem;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 7px 6px 26px -17px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.card h3 {
+    font-size: 40px;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.card p {
+    font-size: 20px;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.card:nth-child(1) {
+    background-color: #3498db;
+}
+.card:nth-child(2) {
+    background-color: #e74c3c;
+}
+.card:nth-child(3) {
+    background-color: #2ecc71;
+}
+.card:hover {
+    transform: translateY(-4px);
+}
